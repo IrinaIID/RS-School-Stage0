@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Momentum</title>
+</head>
+<body>
+  <!-- <div class="to-do-list">
+    <div class="close">&#215;</div>
+    <div class="list-container">
+      <div class="add-to-do">
+        <input type="text" class="input-to-do">
+        <button class="add-btn">Add</button>
+      </div>
+      <ol class="all-to-do"></ol>
+    </div>
+  </div> -->
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon play-btn"></button>
+        <button class="play-next player-icon"></button>
+        <div class="sound-controls">
+          <img src="assets/img/sound.png" alt="sound" class="sound-icon sound-on">
+          <img src="assets/img/none-sound.png" alt="none-sound" class="sound-icon sound-off">
+          <div class="volume-slider">
+            <div class="volume-percentage"></div>
+          </div>
+        </div>
+      </div>
+      <div class="time-controls">
+        <div class="current-track">---</div>
+        <div class="timeline">
+          <div class="progress"></div>
+        </div>
+        <div class="player-time">
+          <div class="current-music-time">00:00</div>
+          <div class="divider">/</div>
+          <div class="music-length"></div>
+        </div>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="language">
+      <div class="lang english active-lang">en</div>
+      <div>/</div>
+      <div class="lang belarusian">be</div>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" placeholder="[ Enter your city ]" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+        <span class="humidity"></span>
+        <span class="wind-speed"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" placeholder="[ Enter your name ]" />
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="additional-func">
+      <img src="assets/img/to-do-icon.png" alt="todolist" class="to-do-icon">
+      <img src="assets/img/settings-icon.png" alt="settings" class="settings-icon">
+    </div>
+    <div class="quotes">
+      <button class="change-quote"></button>
+      <div>
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js" type="module"></script>
+</body>
+</html>
