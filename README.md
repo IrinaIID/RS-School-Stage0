@@ -1,6 +1,6 @@
-# RS-School-Stage0
+# My first works on the RS course stage0
 
-My first works on the RS course stage0
+**Code for each project in a separate branch**
 
 *momentum - https://irinaiid.github.io/RS-School-Stage0/momentum/
 
